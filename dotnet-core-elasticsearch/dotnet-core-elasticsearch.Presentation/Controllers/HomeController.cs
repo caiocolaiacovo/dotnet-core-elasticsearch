@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using dotnet_core_elasticsearch.Application.Models;
+using dotnet_core_elasticsearch.Presentation.Models;
 
-namespace dotnet_core_elasticsearch.Application.Controllers
+namespace dotnet_core_elasticsearch.Presentation.Controllers
 {
     public class HomeController : Controller
     {

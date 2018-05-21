@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace dotnet_core_elasticsearch.Application
+namespace dotnet_core_elasticsearch.Presentation
 {
     public class Startup
     {

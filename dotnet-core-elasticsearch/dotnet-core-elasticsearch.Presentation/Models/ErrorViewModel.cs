@@ -1,6 +1,6 @@
 using System;
 
-namespace dotnet_core_elasticsearch.Application.Models
+namespace dotnet_core_elasticsearch.Presentation.Models
 {
     public class ErrorViewModel
     {
