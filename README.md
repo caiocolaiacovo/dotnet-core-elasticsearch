@@ -1,3 +1,8 @@
+# Docker image
+If you are running this project on a Mac or Linux, you'll need the SQL Server docker image. 
+Download it from [here](https://docs.microsoft.com/pt-br/sql/linux/quickstart-install-connect-docker?view=sql-server-linux-2017) (vesion `mssql-server-linux:2017-CU6`): 
+
+
 # Database
 ```SQL
 CREATE LOGIN usertest WITH PASSWORD = 'user@test123'
