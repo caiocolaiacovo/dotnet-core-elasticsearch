@@ -1,6 +1,6 @@
 # Docker image
 If you are running this project on a Mac or Linux, you'll need the SQL Server docker image. 
-Download it from [here](https://docs.microsoft.com/pt-br/sql/linux/quickstart-install-connect-docker?view=sql-server-linux-2017) (version `mssql-server-linux:2017-CU6`): 
+Download it [here](https://docs.microsoft.com/pt-br/sql/linux/quickstart-install-connect-docker?view=sql-server-linux-2017) (version `mssql-server-linux:2017-CU6`): 
 
 
 # Database
@@ -15,9 +15,8 @@ EXEC sp_addrolemember 'db_owner', 'usertest'
 GO
 ```
 
-# Run migrations
-```bash
-#!/bin/bash
+Run migrations on terminal:
 
-dotnet ef database update
+```
+$  dotnet ef database update
 ```
